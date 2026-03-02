@@ -1,0 +1,309 @@
+body {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/567812df7086d7c6a3ddcd61/1657914839643-VT38RO9B1ZVB4WW2FHE7/17_bolide_racetrack_driving.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+table {
+  border-style: solid;
+  border-color:#124A7A;
+  margin: 0 auto;
+  }
+
+h1 {
+  color: white;
+  font-family:
+  }
+
+h2{color:white;}
+h4{color:white;}
+
+.case{min-width: 600px;
+             width:1100px;
+             margin: 0 auto;
+             background-image: url(https://img.freepik.com/vecteurs-libre/abstract-pattern-sombre_1053-173.jpg?semt=ais_hybrid&w=740&q=80);
+      background-size:;
+      border-radius:20px;
+            padding: 20px;
+     }
+
+p{color: white;
+  font-size: 18px;
+ }
+
+.chronologie{
+  background-color: #0055A4;
+  margin: 0 auto;
+  border-color:black;
+border-collapse: collapse;
+}
+
+.ettore{color: lightblue}
+
+.som{color: black;} 
+
+.paragraphe{
+    margin-left: 125px; 
+    margin-right: 125px;
+  
+}
+
+.Titre{
+  background-color:black ;
+  padding: 4px;
+  margin: 0 auto;
+  width:340px;
+  border-radius:10px;
+.titre{
+  padding: 5px;
+  background-color:#0055A4 ;
+  margin: 0 auto;
+  border-radius:10px;
+  width:330px;
+  
+.list_proprio{list-style-type: upper-roman;
+             }
+}}
+
+
+.Propriétaires1{
+  background-color:black ;
+  padding: 4px;
+  margin: 0 auto;
+  width:340px;
+  border-radius:10px;
+.propriétaires1{
+  padding: 5px;
+  background-color:#0055A4 ;
+  margin: 0 auto;
+  border-radius:10px;
+  width:330px;
+  
+.list_proprio{list-style-type: upper-roman;
+             }
+}}
+
+.Propriétaires0{
+  background-color:black ;
+  padding: 4px;
+  margin: 0 auto;
+  width:290px;
+  border-radius:10px;
+.propriétaires0{
+  padding: 5px;
+  background-color:#0055A4 ;
+  margin: 0 auto;
+  border-radius:10px;
+  width:280px;
+  
+.list_proprio{list-style-type: upper-roman;
+             }
+}}
+
+
+.Propriétaires{
+  background-color:black ;
+  padding: 4px;
+  margin: 0 auto;
+  width:560px;
+  border-radius:10px;
+.propriétaires{
+  padding: 5px;
+  background-color:#0055A4 ;
+  margin: 0 auto;
+  border-radius:10px;
+  width:550px;
+  
+.list_proprio{list-style-type: upper-roman;
+             }
+}}
+
+.Source{
+  background-color:black ;
+  padding: 5px;
+  margin: 0 auto;
+  width:290px;
+  border-radius:10px;
+.source{
+  padding: 5px;
+  background-color:#0055A4 ;
+  margin: 0 auto;
+  border-radius:10px;
+  width:280px;
+  
+.list_proprio{list-style-type: upper-roman;
+             }
+}}
+
+
+.Accueil{color: black}
+
+.div_Accueil{background-color:#0055A4;
+            padding: 1px;
+            border-radius:30px;
+            width:135px;
+            padding: 10px;
+            }
+
+.div_pageB{background-color:#0055A4;
+            padding: 1px;
+            border-radius:30px;
+            width:160px;
+            padding: 10px;
+            }
+
+.div_liens{
+  display: flex;
+  background-color:black;
+  padding: 4px;
+  width:335px;
+  border-radius:30px;
+}
+
+.modèles{
+  background-color: #0055A4;
+  margin: 0 auto;
+  border-color:black;
+border-collapse: collapse;
+}
+
+.liens_ext{
+  color: black;
+}
+
+.div_liens2{
+  display: flex;
+  background-color:black;
+  padding: 4px;
+  width:355px;
+  border-radius:30px;}
+
+.div_liens3{
+  display: flex;
+  background-color:black;
+  padding: 4px;
+  width:440px;
+  border-radius:30px;}
+
+.div_Quiz{background-color:#0055A4;
+            padding: 1px;
+            border-radius:30px;
+            width:60px;
+            padding: 10px;
+            }
+
+.div_lienssimple{
+  display: flex;
+  background-color:black;
+  padding: 4px;
+  width:155px;
+  border-radius:30px;}
+
+.QCM{
+  background-color:black ;
+  padding: 4px;
+  margin: 0 auto;
+  width:600px;
+  border-radius:10px;
+.qcm{
+  padding: 5px;
+  background-color:#0055A4 ;
+  margin: 0 auto;
+  border-radius:10px;
+  width:590px;
+  
+.list_proprio{list-style-type: upper-roman;
+             }
+}}
+
+.QCM2{
+  background-color:black ;
+  padding: 4px;
+  margin: 0 auto;
+  width:540px;
+  border-radius:10px;
+.qcm2{
+  padding: 5px;
+  background-color:#0055A4 ;
+  margin: 0 auto;
+  border-radius:10px;
+  width:530px;
+  
+.list_proprio{list-style-type: upper-roman;
+             }
+}}
+
+
+
+
+
+.radio-container {
+  align-items: center;
+  position: relative;
+  padding-left: 30px;
+  font-size: 16px;
+  color:white;
+}
+
+.radio-container input {
+  position: relative;
+  opacity: 0;
+  
+}
+
+.custom-radio {
+  position: absolute;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 20px;
+  border: 3px solid #999;
+  border-color: black;
+  transition-duration: 0.4s;
+  background-color: #5CB0FF ;
+  
+}
+
+.radio-container input:checked ~ .custom-radio {
+  background-color: #003D75;
+  border-color: black;
+}
+
+.custom-radio:hover {
+background-color:#003D75 ;
+  color: white;
+  height: 23px;
+  width: 23px;
+}
+
+.valider{
+  transition-duration: 0.4s;
+  border-radius: 5px ;
+  border-style: solid;
+  border-color: black;
+  font-size: 15px;
+  background-color: #5CB0FF ;
+}
+
+.valider:hover{
+  background-color: #003D75; 
+  color: white;
+  font-size: 17px;
+}
+
+.valider2{
+  transition-duration: 0.4s;
+  border-radius: 5px ;
+  border-style: solid;
+  border-color: black;
+  font-size: 20px;
+  background-color: #5CB0FF ;
+}
+
+.valider2:hover{
+  background-color: #003D75; 
+  color: white;
+  font-size: 22px;
+}

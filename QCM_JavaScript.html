@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Titre de la page</title>
+</head>
+<body>
+<div class="case"><font face="Helvetica">
+
+<h1><center>Le Quiz</center></h1> 
+  
+<div class="QCM">  
+<div class="qcm">
+<p></p>
+<div class="QCM2">  
+<div class="qcm2">
+
+  
+<p> Le moteur de la F.K.P. Hommage est issu de :
+<br>
+<br>
+<label class="radio-container">
+  la Veyron
+  <input type="radio" name="drone"  value="1">
+  <span class="custom-radio"></span>
+</label>
+
+<label class="radio-container">
+  la Chiron
+  <input type="radio" name="drone"  value="2">
+  <span class="custom-radio"></span>
+</label>
+
+<input class="valider" type="button" value="Valider" onclick="MaFonction1()" />
+</P>
+<p id="rep1"></p>
+
+
+
+  
+
+</div>
+</div>
+<p></p>
+<div class="QCM2">  
+<div class="qcm2">
+  
+<p>Quelle est le dernier modèle de Bugatti ?
+  <br>
+  <br>
+  <select class="valider" name="cars" id="Id_Reponse1">
+  <option value="">--Veuillez choisir une option--</option>
+  <option value="1">Mistral</option>
+  <option value="2">Bolide</option>
+  <option value="3">F.K.P. Hommage</option>
+  <option value="4">Tourbillon</option>
+  <option value="5">Veyron</option>
+  <option value="6">Brouillard</option>
+  <option value="7">Chiron</option>
+</select> <input class="valider" type="button" value="Valider" onclick="MaFonction2()" /></p>
+<p id="rep2"></p>
+</div>
+</div>
+<p></p>
+<div class="QCM2">  
+<div class="qcm2">
+  
+ <p class="quest">En quelle année Bugatti a <u>officiellement</u> dépassé les 400km/h ?
+  <br>
+  <br><input class="valider" type="text" name="Valeur_Reponse" id="Id_Reponse2" value="mettre un nombre" />
+   
+ <input class="valider" type="button" value="Valider" onclick="MaFonction3();" />
+ </p>
+  <p id="rep3"></p>
+  
+</div>
+</div>
+  <p></p>
+
+  <div class="QCM2">  
+<div class="qcm2">
+<p><h1>Résultat</h1></p>
+<input class="valider2" type="button" value="Voir le résultat" onclick="MaFonction4();" />
+<p><h2 id="tot"></h2></p>
+  
+</div>
+</div>
+<p></p>
+  
+</div>
+</div>
+<div class="div_lienssimple">
+<div class="div_Accueil"><a class="Accueil" href="index.html"><strong> Retour à l'accueil</strong></a>
+</div>
+</div>
+
+
+
+
+  
+<script>
+  function MaFonction1() {
+ const bonnerep = "2";
+  const select= document.querySelector('input[name = "drone"]:checked');
+  if ( select.value==bonnerep ) 
+{
+    document.getElementById("rep1").innerHTML= "Bonne réponse !"
+}
+else 
+{
+    document.getElementById("rep1").innerHTML= "Mauvaise réponse "
+}
+  }
+</script>
+  
+<script>
+function MaFonction2() {
+  const choix = document.getElementById("Id_Reponse1");
+    const monChoix=choix[choix.selectedIndex];
+if  (monChoix.value==3){
+    document.getElementById("rep2").innerHTML= "Bonne réponse !"
+}
+else 
+{
+    document.getElementById("rep2").innerHTML= "Mauvaise réponse "
+}  
+    
+  }
+</script>
+  
+<script>
+function MaFonction3() {
+    var reponse = document.getElementById("Id_Reponse2").value;
+   if (reponse=='2010')
+            {document.getElementById('rep3').innerHTML= "Bonne réponse !";}
+    else
+	    {document.getElementById('rep3').innerHTML= "Mauvaise réponse ";}
+  }
+</script>
+<script>
+  function MaFonction4() {
+    const res1 = document.getElementById("rep1").innerHTML;
+    const res2 = document.getElementById("rep2").innerHTML;
+    const res3 = document.getElementById("rep3").innerHTML;
+
+    if (res1=="Bonne réponse !" && res2=="Bonne réponse !" && res3=="Bonne réponse !")
+            {document.getElementById('tot').innerHTML= "Ton score est de 3/3";}
+    else if (res1=="Mauvaise réponse " && res2=="Bonne réponse !" && res3=="Bonne réponse !" || res1=="Bonne réponse !" && res2=="Mauvaise réponse " && res3=="Bonne réponse !" || res1=="Bonne réponse !" && res2=="Bonne réponse !" && res3=="Mauvaise réponse ")
+            {document.getElementById('tot').innerHTML= "Ton score est de 2/3";}
+     else if (res1=="Bonne réponse !" || res2=="Bonne réponse !" || res3=="Bonne réponse !")
+            {document.getElementById('tot').innerHTML= "Ton score est de 1/3";}
+    else if (res1=="Mauvaise réponse " && res2=="Mauvaise réponse " && res3=="Mauvaise réponse ")
+            {document.getElementById('tot').innerHTML= "Ton score est de 0/3";}
+  }
+</script>
+</body>
+</html>
